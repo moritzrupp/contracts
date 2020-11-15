@@ -1,0 +1,42 @@
+{
+  "name": "contracts",
+  "description": "Contracts helps you to stay on track with all your contracts and subscriptions!",
+  "keywords": [
+    "contract",
+    "subscription",
+    "manage"
+  ],
+  "version": "0.1.0",
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Moritz Rupp",
+    "email": "moritz.rupp@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/moritzrupp/contracts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moritzrupp/contracts.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
+  },
+  "dependencies": {
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.2.1"
+  }
+}
