@@ -43,8 +43,6 @@
     "auto-changelog": "^2.2.1",
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.0.2"
   }
 }
