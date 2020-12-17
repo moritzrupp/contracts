@@ -24,12 +24,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog && git add CHANGELOG.md",
+    "changelog": "auto-changelog",
+    "changelog-debug": "auto-changelog --template json --output changelog-data.json"
   },
   "auto-changelog": {
     "template": "keepachangelog",
     "unreleased": true,
-    "commitLimit": false
+    "commitLimit": false,
+    "package": true
   },
   "dependencies": {
     "next": "10.0.1",
