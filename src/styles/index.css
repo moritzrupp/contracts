@@ -1,0 +1,20 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+@layer components {
+  .card {
+    @apply m-4 w-5/12 p-6 text-left no-underline text-current border border-gray-300 border-solid rounded-xl transition-colors;
+  }
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
