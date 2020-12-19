@@ -15,7 +15,7 @@ export default function Home() {
 
         <p className="text-center text-2xl leading-normal">
           Get started by editing{' '}
-          <code className="bg-gray-100 rounded p-3 text-lg font-mono">pages/index.js</code>
+          <code className="bg-gray-100 rounded p-3 text-lg font-mono">pages/index.tsx</code>
         </p>
 
         <div className="flex items-center justify-center flex-wrap max-w-3xl mt-12">
