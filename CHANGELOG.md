@@ -1,3 +1,10 @@
+## [0.0.2](https://github.com/moritzrupp/contracts/compare/v0.0.1...v0.0.2) (2021-05-13)
+
+
+### Bug Fixes
+
+* **package:** update package versions ([5cfdd86](https://github.com/moritzrupp/contracts/commit/5cfdd86b510da570a24405b41bc8c16e4a7e2bca))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
